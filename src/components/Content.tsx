@@ -2,6 +2,8 @@ import { MovieCard } from "./MovieCard"
 
 import { MovieProps } from '../App'
 
+import '../styles/content.scss';
+
 interface Props {
   selectedGenre: string;
   movies: MovieProps[];

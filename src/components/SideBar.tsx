@@ -2,6 +2,8 @@ import { GenreResponseProps } from '../App'
 
 import { Button } from '../components/Button';
 
+import '../styles/sidebar.scss';
+
 interface Props {
   genres: GenreResponseProps[];
   selectedGenreId: number;
